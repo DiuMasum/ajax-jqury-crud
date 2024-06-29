@@ -198,7 +198,7 @@
                 previewImage(this);
             });
 
-            // Existing AJAX code for form submission
+             // add new employee ajax request
             $("#add_employee_form").submit(function(e) {
                 e.preventDefault();
                 const fd = new FormData(this);
@@ -237,7 +237,6 @@
                 });
             });
         });
-
 
 
         // edit employee ajax request
